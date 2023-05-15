@@ -7,12 +7,12 @@ import HeroGroup from "../assets/hero/heroGroup.png";
 function HeroSection() {
   return (
     // Hero section
-    <section className="flex flex-col justify-center px-10 sm:px-16 gap-10 lg:px-16 py-10">
+    <section className="flex flex-col justify-center gap-10 px-10 py-10 sm:px-16 lg:px-16">
       {/* Hero Images */}
       <img
         src={HeroGroup}
         alt="AirBnb Logo"
-        className="m-auto lg:w-2/3 object-cover"
+        className="m-auto object-cover lg:w-2/3"
       />
       {/* Hero Action */}
       <div className="font-poppins">

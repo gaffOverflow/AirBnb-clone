@@ -1,7 +1,17 @@
 import React from "react";
-import ReactDom from "react-dom/client";
-import App from "./index.jsx"
+import NavBar from "./src/components/NavBar.jsx";
+import Hero from "./src/components/Hero.jsx";
+import HeroSection from "./src/components/Hero.jsx";
+import CardSection from "./src/components/card.jsx";
 
-const root = ReactDom.createRoot(document.querySelector("#root"));
+function App() {
+  return (
+    <>
+      <NavBar />
+      <HeroSection />
+     <CardSection />
+    </>
+  );
+}
 
-root.render(<App/>);
+export default App;
